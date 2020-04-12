@@ -1,0 +1,80 @@
+        body {
+            color: #737373;
+            font-size: 10px;
+            font-family: verdana;
+            /* background: url(img/ibomgolf_lobby.jpg) no-repeat; */
+            /* background-size: cover; */
+            /* background: skyblue;
+            background: linear-gradient(15deg, #b0f2ff, skyblue 10%); */
+            background: rgba(62, 159, 214, 0.9);
+            background-image: linear-gradient( to top left, rgba(62, 159, 214, 0.9), rgba(112, 214, 244, 0.9)), url(img/ibomgolf_lobby.jpg);
+            background-size: cover;
+        }
+        
+        textarea,
+        input,
+        select {
+            background-color: #FDFBFB;
+            border: 1px solid #BBBBBB;
+            padding: 2px;
+            margin: 1px;
+            font-size: 14px;
+            color: #808080;
+        }
+        
+        a,
+        a:link,
+        a:visited,
+        a:active {
+            color: #AAAAAA;
+            text-decoration: none;
+            font-size: 10px;
+        }
+        
+        a:hover {
+            border-bottom: 1px dotted #c1c1c1;
+            color: #AAAAAA;
+        }
+        
+        img {
+            border: none;
+        }
+        
+        td {
+            font-size: 14px;
+            color: #7A7A7A;
+        }
+        
+        .color-error {
+            color: #FF8080;
+        }
+        
+        .login-box {
+            width: 280px;
+            height: 280px;
+            border: 1px solid #e2cbbc;
+            padding: 0px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            color: #000;
+            transition: all 0.5s ease-in;
+        }
+        
+        .login-box:hover {
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+            transform: translateY(30deg);
+        }
+        
+        .notice {
+            color: #000;
+            font-size: 11px;
+        }
+        
+        .txt-highlight {
+            font-size: 12px !important;
+            color: #ff6600 !important;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 8px;
+            display: inline-block;
+        }
